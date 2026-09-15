@@ -1,7 +1,7 @@
 
 # 📘 Assignment: Games in Python
 
-## 🎯 Objectivo
+## 🎯 Objetivo
 
 Crie um jogo interativo em Python em que o jogador tenta adivinhar uma palavra oculta antes de esgotar as tentativas, praticando uso de strings, loops e condicionais.
 
