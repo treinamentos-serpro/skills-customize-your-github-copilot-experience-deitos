@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "sqlite-auth-api",
+      "title": "SQLite and Authentication API",
+      "description": "Build a secure task-tracking API that stores information in SQLite and protects sensitive actions with basic authentication.",
+      "path": "assignments/sqlite-auth-api",
+      "dueDate": "2026-09-22",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
