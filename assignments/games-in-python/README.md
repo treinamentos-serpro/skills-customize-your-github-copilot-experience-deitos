@@ -1,46 +1,24 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Games in Python
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## Objetivo
+Crie um jogo interativo em Python em que o jogador tenta adivinhar uma palavra oculta antes de esgotar as tentativas, praticando uso de strings, loops e condicionais.
 
-Crie um jogo da forca em que o jogador tenta adivinhar letras para descobrir uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-## Habilidades praticadas
+### 🛠️ Build the Hangman Game
 
-- Manipulação de strings
-- Loops
-- Condicionais
-- Seleção aleatória
-- Entrada e validação de dados do usuário
+#### Descrição
+Implemente o clássico jogo da forca, em que o usuário tenta adivinhar letras de uma palavra secreta e o programa informa o progresso e as tentativas restantes.
 
-## Requisitos
+#### Requisitos
+O programa concluído deve:
 
-Seu jogo deve:
-
-- Selecionar uma palavra aleatória de uma lista predefinida
-- Aceitar palpites de letras do usuário
-- Mostrar o progresso atual da palavra com espaços e letras reveladas (por exemplo: _ _ _)
-- Registrar e diminuir as tentativas restantes quando a letra for errada
-- Encerrar automaticamente quando o jogador adivinhar a palavra ou quando as tentativas acabarem
-- Exibir mensagens claras de vitória ou derrota
-- Permitir que o jogo continue até que o jogador decida encerrar, se desejado
-
-## Critérios de entrega
-
-- O código deve funcionar em Python
-- A lógica deve usar estruturas básicas de programação aprendidas no módulo
-- O programa deve ser interativo e fácil de jogar
-- O resultado final deve ser legível, organizado e bem comentado, quando necessário
-
-## Dicas
-
-- Use uma lista com algumas palavras de exemplo
-- Mantenha uma variável para controlar as letras já tentadas
-- Atualize a palavra parcialmente conforme as letras corretas forem descobertas
-- Teste diferentes entradas para garantir que o jogo respeita as regras
-
-## Entrega
-
-Submeta o arquivo Python com a solução do jogo da forca e, se solicitado, compartilhe o código e a execução em sala ou em um repositório.
+- Selecionar uma palavra aleatória a partir de uma lista predefinida
+- Receber palpites de letras do usuário por meio de entrada no terminal
+- Exibir o estado atual da palavra com letras reveladas e espaços para as não descobertas
+- Contar e reduzir as tentativas restantes sempre que o jogador errar
+- Encerrar o jogo quando a palavra for completamente adivinhada ou quando as tentativas acabarem
+- Mostrar mensagens claras de vitória ou derrota
+- Permitir que o jogo continue até que o usuário decida encerrar, se desejado
